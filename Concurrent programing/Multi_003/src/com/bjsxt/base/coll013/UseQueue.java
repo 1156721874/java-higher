@@ -27,6 +27,7 @@ public class UseQueue {
 		*/
 		
 		/**
+		 * 有界阻塞队列
 		ArrayBlockingQueue<String> array = new ArrayBlockingQueue<String>(5);
 		array.put("a");
 		array.put("b");
@@ -39,7 +40,7 @@ public class UseQueue {
 		
 		
 		/**
-		//阻塞队列
+		//无界阻塞队列
 		LinkedBlockingQueue<String> q = new LinkedBlockingQueue<String>();
 		q.offer("a");
 		q.offer("b");
@@ -62,7 +63,7 @@ public class UseQueue {
 		}
 		*/
 		
-		
+		//无缓冲队列
 		final SynchronousQueue<String> q = new SynchronousQueue<String>();
 		Thread t1 = new Thread(new Runnable() {
 			@Override

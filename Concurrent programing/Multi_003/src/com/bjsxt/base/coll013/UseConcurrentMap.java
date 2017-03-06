@@ -26,7 +26,7 @@ public class UseConcurrentMap {
 		//是一种优化的数据结构，通过减小锁的粒度降低锁竞争。并且代码中大多共享变量使用volatile关键字，目的是第一时间获取修改的内容，性能非常好。
 		
 		HashMap<String,Object> hashmap = new HashMap<String,Object>();
-		//hash map 底层数据结构是哈希表
+		//hash map 底层数据结构是哈希桶数组
 		
 	}
 }

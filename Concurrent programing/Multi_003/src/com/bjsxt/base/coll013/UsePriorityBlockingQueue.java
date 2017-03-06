@@ -29,6 +29,11 @@ public class UsePriorityBlockingQueue {
 		q.add(t2);	//4
 		q.add(t3);  //1
 		
+		for (Iterator iterator = q.iterator() ; iterator.hasNext();)
+		{
+			System.out.println(iterator.next());;
+		}
+		
 		// 1 3 4
 		System.out.println("容器：" + q);
 		System.out.println(q.take().getId());
