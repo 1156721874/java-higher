@@ -177,3 +177,8 @@ finally {
 - 减小锁的粒度
 - 锁的读写分离
 - 尽量使用无锁的操作，如原子操作(Atomic系列类)，volatile关键字
+
+## 分布式锁
+  > 两个jvm上的操作如何保证原子性？
+
+ > Zookeeper,线程访问资源之前，去Zookeeper上注册，由Zookeeper管理
