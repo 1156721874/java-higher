@@ -9,7 +9,7 @@ package com.bjsxt.base.sync002;
  */
 public class MultiThread {
 
-	private static int num = 0;
+	private /*static*/volatile int num = 0;
 	
 	/** static */
 	public /*static*/ synchronized void printNum(String tag){

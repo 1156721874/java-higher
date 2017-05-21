@@ -1,8 +1,8 @@
 package com.bjsxt.base.sync006;
 /**
  * 锁对象的改变问题
+ * 锁对象一修改，其他线程会进来
  * @author alienware
- *
  */
 public class ChangeLock {
 

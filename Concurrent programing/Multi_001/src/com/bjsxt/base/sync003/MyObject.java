@@ -9,8 +9,8 @@ public class MyObject {
 
 	public synchronized void method1(){
 		try {
+		    Thread.sleep(4000);
 			System.out.println(Thread.currentThread().getName());
-			Thread.sleep(4000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

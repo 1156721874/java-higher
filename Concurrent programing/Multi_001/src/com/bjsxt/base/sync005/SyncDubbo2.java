@@ -1,6 +1,7 @@
 package com.bjsxt.base.sync005;
 /**
  * synchronized的重入
+ * 访问继承关系的类
  * @author alienware
  *
  */

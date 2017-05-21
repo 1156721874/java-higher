@@ -2,7 +2,6 @@ package com.bjsxt.base.sync005;
 /**
  * synchronized的重入
  * @author alienware
- *
  */
 public class SyncDubbo1 {
 
